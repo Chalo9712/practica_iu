@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Practica</title>
 </head>
 <body>
@@ -12,6 +13,9 @@
             <div class="logo">
                 <h1>Curso <span>IW1</span></h1>
             </div>
+            <button id="menu-toggle" aria-level="Menu de navegación">
+                <i class="fa-solid fa-bars"></i>
+            </button>
             <ul class="nav-links">
                 <li><a href="" class="active">Inicio</a></li>
                 <li><a href="">Proyectos</a></li>
@@ -38,7 +42,187 @@
         </div>
     </section>
 
-    <section id="project">
+    <section id="projects">
+        <div class="section header">
+            <h2>Proyectos Destacados</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="filter-labs">
+            <button class="filter-btn active">Todos</button>
+            <button class="filter-btn">Web</button>
+            <button class="filter-btn">Movil</button>
+            <button class="filter-btn">IA</button>
+        </div>
+        <div class="projects-grid">
+            <!-- Proyecto 1 -->
+             <article class="preject-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img">
+                        <div class="project-overlay">
+                            <button class="view-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portal de Aprendizaje Adaptativo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, nulla!</p>
+                    <div class="project-tags">
+                        <span>Html5</span>
+                        <span>Css3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>                        
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 2 -->
+             <article class="preject-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img">
+                        <div class="project-overlay">
+                            <button class="view-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Aplicación de Realidad Aumentada</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, nulla!</p>
+                    <div class="project-tags">
+                        <span>Html5</span>
+                        <span>Css3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>                        
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 3 -->
+             <article class="preject-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img">
+                        <div class="project-overlay">
+                            <button class="view-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sistema de Predicción Climatica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, nulla!</p>
+                    <div class="project-tags">
+                        <span>Html5</span>
+                        <span>Css3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>                        
+                    </div>
+                </div>
+             </article>
+             <!-- Proyecto 4 -->
+             <article class="preject-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img">
+                        <div class="project-overlay">
+                            <button class="view-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Dashboard Analítico</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, nulla!</p>
+                    <div class="project-tags">
+                        <span>Html5</span>
+                        <span>Css3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>                        
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 5 -->
+             <article class="preject-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img">
+                        <div class="project-overlay">
+                            <button class="view-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Asistente de Salud Personal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, nulla!</p>
+                    <div class="project-tags">
+                        <span>Html5</span>
+                        <span>Css3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+             </article>
+
+             <!-- Proyecto 6 -->
+             <article class="preject-card" data-category="web">
+                <div class="project-image">
+                    <div class="placeholder-img">
+                        <div class="project-overlay">
+                            <button class="view-btn">Ver Detalles</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sistema de Reconocimiento Facial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, nulla!</p>
+                    <div class="project-tags">
+                        <span>Html5</span>
+                        <span>Css3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+             </article>        
+            </div>
+    </section>
+
+    <section id="features">
+        <div class="section-header">
+            <h2>Nuestras Características</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, inventore?</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature icon">
+                    <i class="fa-solid fa-code"></i>                    
+                </div>
+                <h3>Codigo Limpio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut!</p>
+                
+            </div>
+
+            <div class="feature-card">
+                <div class="feature icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>                    
+                </div>
+                <h3>Diseño Responsive</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut!</p>
+                
+            </div>
+
+            <div class="feature-card">
+                <div class="feature icon">
+                    <i class="fa-solid fa-gears"></i>                    
+                </div>
+                <h3>Optimización</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut!</p>
+                
+            </div>
+
+            <div class="feature-card">
+                <div class="feature icon">
+                    <i class="fa-solid fa-lock"></i>                    
+                </div>
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aut!</p>
+                
+            </div>
+        </div>
 
     </section>
 
